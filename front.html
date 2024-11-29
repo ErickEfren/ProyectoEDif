@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solucion Homogenea</title>
+    <link rel="stylesheet" type="text/css" href="style.css"></stylesheet>
+    <script src="MathJax-master/es5/tex-chtml.js"></script>
+    <script src="back3.js"></script>
+</head>
+<body>
+    <div>
+        <!---- Paso 1, ecuación característica, paso 2 raices, paso 3 soluciones li, paso 4 solución general-->
+        <div><h1>Generador de la solución homogenea de segundo orden</h1></div>
+        <div id="input-box">
+            <h2>
+                <input id="second" type="number" required>&nbsp; y'' + 
+                <input id="first" type="number" required>&nbsp; y' +
+                <input id="zero" type="number" required>&nbsp; y = 0
+            </h2>
+            <button id="resolver" onclick="resolver()">Resolver</button>
+        </div>
+        <div id="solucion">Ingresa un conjunto de datos válidos para continuar</div>        
+    </div>
+</body>
+</html>
